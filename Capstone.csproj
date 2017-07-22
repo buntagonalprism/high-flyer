@@ -81,6 +81,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Capstone.Plugins.csproj">
+      <Project>{1BC45EF5-B35E-1E96-8ABD-8A680FF15DF4}</Project>
+      <Name>Capstone.Plugins</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
     <Compile Include="Assets\Scripts\ControllerInputDetector.cs" />
     <Compile Include="Assets\Scripts\ControllerInputManager.cs" />
     <Compile Include="Assets\Scripts\GrabAndThrowManager.cs" />
@@ -237,8 +243,14 @@
     <Compile Include="Assets\TiltBrushExamples\Assets\Scripts\Story\StoryTeleportPoint.cs" />
     <Compile Include="Assets\TiltBrushExamples\Assets\Scripts\Story\StoryTeleportTrigger.cs" />
     <Compile Include="Assets\TiltBrushExamples\Assets\Scripts\VRInput.cs" />
+    <Compile Include="Assets\TubeDoorController.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
+    <None Include="Assets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
+    <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
+    <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
+    <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
     <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\SeeThru.shader" />
     <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\Silhouette.shader" />
     <None Include="Assets\SteamVR\InteractionSystem\Hints\Shaders\ControllerButtonHints.shader" />
