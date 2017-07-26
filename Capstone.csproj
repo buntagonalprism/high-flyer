@@ -244,6 +244,7 @@
     <Compile Include="Assets\TiltBrushExamples\Assets\Scripts\Story\StoryTeleportTrigger.cs" />
     <Compile Include="Assets\TiltBrushExamples\Assets\Scripts\VRInput.cs" />
     <Compile Include="Assets\TubeDoorController.cs" />
+    <Compile Include="Assets\Wing.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
