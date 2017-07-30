@@ -25,19 +25,14 @@ public class TubeDoorController : MonoBehaviour
     private Vector3 launchVelocity;
     private bool isLaunchingPlayer = false;
     private AudioSource audio;
-    public Wing[] wings;
 
     private void Start()
     {
-        player = FindObjectOfType<SteamVR_ControllerManager>().gameObject;
+        player = FindObjectOfType<PlayerPlane>().gameObject;
         playerRb = player.GetComponent<Rigidbody>();
         anim = GetComponent<Animator>();
         animController = anim.runtimeAnimatorController;
         audio = GetComponent<AudioSource>();
-        foreach (Wing wing in wings)
-        {
-            wing.gameObject.SetActive(false);
-        }
     }
 
     private void Update()
@@ -49,14 +44,14 @@ public class TubeDoorController : MonoBehaviour
             delta = player.transform.position - transform.position;
             angleDelta = Quaternion.Inverse(transform.rotation) * player.transform.rotation;
             isMovingPlayer = true;
-            audio.Play();
+            //audio.Play();
             
         }
         // When we are ready  to luanch
         if(anim.IsInTransition(0) && anim.GetNextAnimatorStateInfo(0).shortNameHash == Animator.StringToHash("TubeLaunchReady"))
         {
             isMovingPlayer = false;
-            launchVelocity = player.transform.up * launchSpeed;
+            launchVelocity = player.transform.forward * launchSpeed;
             launchStartTime = Time.time;
             isLaunchingPlayer = true;
         }
@@ -79,10 +74,6 @@ public class TubeDoorController : MonoBehaviour
                 playerRb.centerOfMass = new Vector3(playerHead.transform.parent.transform.localPosition.x, 0f, playerHead.transform.parent.transform.localPosition.z);
                 playerRb.isKinematic = false;
                 playerRb.useGravity = true;
-                foreach (Wing wing in wings)
-                {
-                    wing.gameObject.SetActive(true);
-                }
             }
         }
     }

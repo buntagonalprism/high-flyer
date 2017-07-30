@@ -87,6 +87,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\PlayerPlane.cs" />
     <Compile Include="Assets\Scripts\ControllerInputDetector.cs" />
     <Compile Include="Assets\Scripts\ControllerInputManager.cs" />
     <Compile Include="Assets\Scripts\GrabAndThrowManager.cs" />
@@ -193,6 +194,7 @@
     <Compile Include="Assets\SteamVR\Scripts\SteamVR_TrackedObject.cs" />
     <Compile Include="Assets\SteamVR\Scripts\SteamVR_UpdatePoses.cs" />
     <Compile Include="Assets\SteamVR\Scripts\SteamVR_Utils.cs" />
+    <Compile Include="Assets\TestRotation.cs" />
     <Compile Include="Assets\ThirdParty\Reaktion\Gear\AnimatorGear.cs" />
     <Compile Include="Assets\ThirdParty\Reaktion\Gear\CameraGear.cs" />
     <Compile Include="Assets\ThirdParty\Reaktion\Gear\ConstantMotionGear.cs" />
@@ -244,7 +246,7 @@
     <Compile Include="Assets\TiltBrushExamples\Assets\Scripts\Story\StoryTeleportTrigger.cs" />
     <Compile Include="Assets\TiltBrushExamples\Assets\Scripts\VRInput.cs" />
     <Compile Include="Assets\TubeDoorController.cs" />
-    <Compile Include="Assets\Wing.cs" />
+    <Compile Include="Assets\Wings.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
@@ -252,6 +254,10 @@
     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
+    <None Include="Assets\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
+    <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
+    <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
+    <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
     <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\SeeThru.shader" />
     <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\Silhouette.shader" />
     <None Include="Assets\SteamVR\InteractionSystem\Hints\Shaders\ControllerButtonHints.shader" />
