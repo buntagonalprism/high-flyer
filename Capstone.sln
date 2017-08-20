@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Capstone.Plugins", "Capston
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Capstone", "Capstone.csproj", "{C62817EB-7B23-CE11-DD90-CBB1E2E141EB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Capstone.Editor.Plugins", "Capstone.Editor.Plugins.csproj", "{CCD169DE-204F-5682-ADD9-35774F168FC2}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Capstone.Editor", "Capstone.Editor.csproj", "{6F46C54F-D70B-70B1-CE31-25E5270328BC}"
 EndProject
 Global
@@ -21,6 +23,10 @@ Global
 		{C62817EB-7B23-CE11-DD90-CBB1E2E141EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C62817EB-7B23-CE11-DD90-CBB1E2E141EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C62817EB-7B23-CE11-DD90-CBB1E2E141EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCD169DE-204F-5682-ADD9-35774F168FC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCD169DE-204F-5682-ADD9-35774F168FC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCD169DE-204F-5682-ADD9-35774F168FC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCD169DE-204F-5682-ADD9-35774F168FC2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6F46C54F-D70B-70B1-CE31-25E5270328BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6F46C54F-D70B-70B1-CE31-25E5270328BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F46C54F-D70B-70B1-CE31-25E5270328BC}.Release|Any CPU.ActiveCfg = Release|Any CPU

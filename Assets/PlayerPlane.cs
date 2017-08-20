@@ -12,7 +12,18 @@ public class PlayerPlane : MonoBehaviour {
 	void Start () {
         rb = GetComponent<Rigidbody>();
         wings = GetComponent<Wings>();
-	}
+
+        Camera camera = FindObjectOfType<Camera>();
+        float[] distances = new float[32];
+        for (int i = 0; i < distances.Length; i++)
+        {
+            distances[i] = 1000;
+        }
+        distances[9] = 3600;
+        distances[10] = 2000;
+        camera.layerCullDistances = distances;
+        
+    }
 	
 	// Update is called once per frame
 	void FixedUpdate () {
