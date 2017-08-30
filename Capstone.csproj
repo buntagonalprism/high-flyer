@@ -234,6 +234,7 @@
     <Compile Include="Assets\SteamVR\Scripts\SteamVR_TrackedObject.cs" />
     <Compile Include="Assets\SteamVR\Scripts\SteamVR_UpdatePoses.cs" />
     <Compile Include="Assets\SteamVR\Scripts\SteamVR_Utils.cs" />
+    <Compile Include="Assets\TestNavMesh.cs" />
     <Compile Include="Assets\TestRotation.cs" />
     <Compile Include="Assets\ThirdParty\Reaktion\Gear\AnimatorGear.cs" />
     <Compile Include="Assets\ThirdParty\Reaktion\Gear\CameraGear.cs" />

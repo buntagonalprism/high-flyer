@@ -88,4 +88,23 @@ Oh yeah, add the columns as well. Maybe just plain colours with rough normals fo
 Then we've got flying machine building or animal waypoints to do. 
 Should probably build start and end rooms quickly out of downloaded primitives before I get too carried away with the safari mechanics
 Cactus done. 
-Let's extract the tree next
+Let's extract the tree next Done
+Have some room item now as well. 
+Probably need to do a test run now though
+Flight mechanics work well. Feels a bit slow when there's not a lot of stuff around, flapping would be good for that for bursts of speed which quickly get reduced (maybe have drag increase beyond a certain threshold )
+
+So what should I try to solve now?
+- Building the flying machine - might be easier in blocks actually, maybe with a bit of blender modification
+- Build the hand controllers
+- Flapping mechanics?
+- The starting room
+- The end shack
+- Animal locomotion
+- More Terrain features
+- Flight course correction / obstacle avoidance
+- Camera button mapping and appearance
+- Animal photo detection
+- Sound affects, waterfall, other finishing touches
+
+Flapping mechanics and flying machine are fairly large pieces of work I don't want to undertake now cause its late. Let's work on the animal locomotion cause that's interesting, and some of the starting shack. 
+But we'll crack on with animals and flying machine tomorrow evening, and the start room if we get time. 
