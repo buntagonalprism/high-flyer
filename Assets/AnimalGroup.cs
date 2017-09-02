@@ -6,6 +6,9 @@ using UnityEngine.AI;
 public class AnimalGroup : MonoBehaviour {
 
     public Waypoint currentWaypoint;
+    public bool doesStandStill;
+    public float standMinTime;
+    public float standMaxTime;
 
     private bool isIdle;
     private float nextMoveTime;
@@ -86,7 +89,7 @@ public class AnimalGroup : MonoBehaviour {
             foreach (Waypoint target in waypoint.ValidTargets)
             {
                 Gizmos.DrawLine(waypoint.transform.position, target.transform.position);
-                Gizmos.DrawWireCube(Vector3.Lerp(waypoint.transform.position, target.transform.position, 0.9f), Vector3.one);
+                Gizmos.DrawWireCube(Vector3.Lerp(waypoint.transform.position, target.transform.position, 0.1f), Vector3.one);
             }
         }
     }

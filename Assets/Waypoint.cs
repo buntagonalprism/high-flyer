@@ -15,7 +15,7 @@ public class Waypoint : MonoBehaviour
         foreach (Waypoint target in ValidTargets)
         {
             Gizmos.DrawLine(transform.position, target.transform.position);
-            Gizmos.DrawWireCube(Vector3.Lerp(transform.position, target.transform.position, 0.9f), Vector3.one);
+            Gizmos.DrawWireCube(Vector3.Lerp(transform.position, target.transform.position, 0.1f), Vector3.one);
         }
     }
 }
