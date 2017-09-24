@@ -17,5 +17,9 @@ public class Waypoint : MonoBehaviour
             Gizmos.DrawLine(transform.position, target.transform.position);
             Gizmos.DrawWireCube(Vector3.Lerp(transform.position, target.transform.position, 0.1f), Vector3.one);
         }
+        if (transform.parent.GetComponent<AnimalGroup>() != null)
+        {
+            transform.parent.GetComponent<AnimalGroup>().OnDrawGizmosFromChild();
+        }
     }
 }

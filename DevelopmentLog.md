@@ -108,3 +108,29 @@ So what should I try to solve now?
 
 Flapping mechanics and flying machine are fairly large pieces of work I don't want to undertake now cause its late. Let's work on the animal locomotion cause that's interesting, and some of the starting shack. 
 But we'll crack on with animals and flying machine tomorrow evening, and the start room if we get time. 
+
+Attributions:
+Various Models from Blocks:
+- "Beer Table" by Michael Käsdorf
+- "Barrel 2" by SpookyWut
+- "Wooden Bench" by Hunter Paramore
+- "Chair" by Aren Anderton
+- "Wooden Stool" by Jarlen Perez
+- "Camera" by Gabriel Valdivia
+- "Paper Plane" by Jeremy Cowles
+- "clipboard" by William Murphy
+- "Graphophone" by Bruno Oliveira
+- "Fold Out Ladder" by Jarlan Perez
+- "Dry Erase Board" by Jarlan Perez
+- "Window" by Jonathan Granskog
+- "Telescope" by Jarlan Perez
+
+Sounds:
+- Engine motor for conveyor bumping: http://freesound.org/people/Dominik_W/sounds/398675/
+- General machinery for elevator lower: http://freesound.org/people/Adam_N/sounds/164743/
+- Rumbling for volcano: http://freesound.org/people/iut_Paris8/sounds/390463/
+- Waterfall: http://freesound.org/people/deleted_user_7146007/sounds/383732/
+- Birds for out the window of the start room: http://freesound.org/people/DCPoke/sounds/387978/
+- Alternative birds option: http://freesound.org/people/lukebacon/sounds/169128/
+- Downloaded music for gramaphone
+- Air rush for wings effect

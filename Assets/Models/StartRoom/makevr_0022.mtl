@@ -1,0 +1,32 @@
+newmtl material_0
+Ka 0.4 0.4 0.4
+map_Ka Galvanized_steel.jpg
+map_Ks Galvanized_steel.jpg
+map_Kd Galvanized_steel.jpg
+d 1
+Kd 0.4 0 0.326304
+Ks 0.4 0 0.326304
+Ns 25.0
+Ni 1.0
+illum 5
+newmtl material_1
+Ka 0.4 0.4 0.4
+map_Ka Galvanized_steel.jpg
+map_Ks Galvanized_steel.jpg
+map_Kd Galvanized_steel.jpg
+d 1
+Kd 1 1 1
+Ks 1 1 1
+Ns 25.0
+Ni 1.0
+illum 5
+newmtl material_2
+Ka 0.4 0.4 0.4
+map_Ka dans_blinn.jpg
+map_Ks dans_blinn.jpg
+map_Kd dans_blinn.jpg
+Kd 0.414512 0.0151502 0.0127459
+Ks 0.414512 0.0151502 0.0127459
+Ns 25.0
+Ni 1.0
+illum 5

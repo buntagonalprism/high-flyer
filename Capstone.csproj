@@ -87,7 +87,10 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Animal.cs" />
     <Compile Include="Assets\AnimalGroup.cs" />
+    <Compile Include="Assets\Link.cs" />
+    <Compile Include="Assets\LinkController.cs" />
     <Compile Include="Assets\Low Poly Animated Animals\- Scripts\AnimationControl.cs" />
     <Compile Include="Assets\Low Poly Animated Animals\- Scripts\KillSwitch.cs" />
     <Compile Include="Assets\Low Poly Animated Animals\- Scripts\PanelControll.cs" />
@@ -127,6 +130,12 @@
     <Compile Include="Assets\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Scripts\Tonemapping.cs" />
     <Compile Include="Assets\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Scripts\Triangles.cs" />
     <Compile Include="Assets\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Scripts\VignetteAndChromaticAberration.cs" />
+    <Compile Include="Assets\NavMeshComponents\Scripts\NavMeshLink.cs" />
+    <Compile Include="Assets\NavMeshComponents\Scripts\NavMeshModifier.cs" />
+    <Compile Include="Assets\NavMeshComponents\Scripts\NavMeshModifierVolume.cs" />
+    <Compile Include="Assets\NavMeshComponents\Scripts\NavMeshSurface.cs" />
+    <Compile Include="Assets\PhotoCameraDeploy.cs" />
+    <Compile Include="Assets\PhotoZoomController.cs" />
     <Compile Include="Assets\PlayerPlane.cs" />
     <Compile Include="Assets\Scripts\ControllerInputDetector.cs" />
     <Compile Include="Assets\Scripts\ControllerInputManager.cs" />
@@ -234,6 +243,7 @@
     <Compile Include="Assets\SteamVR\Scripts\SteamVR_TrackedObject.cs" />
     <Compile Include="Assets\SteamVR\Scripts\SteamVR_UpdatePoses.cs" />
     <Compile Include="Assets\SteamVR\Scripts\SteamVR_Utils.cs" />
+    <Compile Include="Assets\TakePhotoController.cs" />
     <Compile Include="Assets\TestNavMesh.cs" />
     <Compile Include="Assets\TestRotation.cs" />
     <Compile Include="Assets\ThirdParty\Reaktion\Gear\AnimatorGear.cs" />
@@ -286,6 +296,7 @@
     <Compile Include="Assets\TiltBrushExamples\Assets\Scripts\Story\StoryTeleportPoint.cs" />
     <Compile Include="Assets\TiltBrushExamples\Assets\Scripts\Story\StoryTeleportTrigger.cs" />
     <Compile Include="Assets\TiltBrushExamples\Assets\Scripts\VRInput.cs" />
+    <Compile Include="Assets\TimeDilation.cs" />
     <Compile Include="Assets\TubeDoorController.cs" />
     <Compile Include="Assets\Waypoint.cs" />
     <Compile Include="Assets\Wings.cs" />

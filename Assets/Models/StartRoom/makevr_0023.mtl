@@ -1,0 +1,11 @@
+newmtl material_0
+Ka 0.4 0.4 0.4
+map_Ka wood.jpg
+map_Ks wood.jpg
+map_Kd wood.jpg
+d 1
+Kd 0.4 0.186407 0
+Ks 0.4 0.186407 0
+Ns 25.0
+Ni 1.0
+illum 5

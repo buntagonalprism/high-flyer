@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 24743159b79c1df45aff1f09408c41b2
+timeCreated: 1504918673
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: jr!hand
+  fontNames:
+  - jr!hand
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

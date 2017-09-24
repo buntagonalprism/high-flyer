@@ -1,0 +1,12 @@
+# Flying Safari UI Text
+Welcome Screen
+Intro 1 
+Intro 2
+Intro 3
+Play Again
+
+UI Manager class? 
+
+PhotoManager - remove all photo grabbing and saving to disk logic into PhotoManager class. 
+Have it Don'tDestroyOnLoad in the main scene. 
+Duplicate start scene 

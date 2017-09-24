@@ -1,0 +1,21 @@
+newmtl material_0
+Ka 0.4 0.4 0.4
+map_Ka meterstick.jpg
+map_Ks meterstick.jpg
+map_Kd meterstick.jpg
+d 1
+Kd 0 0.4 0.169463
+Ks 0 0.4 0.169463
+Ns 25.0
+Ni 1.0
+illum 5
+newmtl material_1
+Ka 0.4 0.4 0.4
+map_Ka wood.jpg
+map_Ks wood.jpg
+map_Kd wood.jpg
+Kd 1 0.101773 2.62798e-008
+Ks 1 0.101773 2.62798e-008
+Ns 25.0
+Ni 1.0
+illum 5
