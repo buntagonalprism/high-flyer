@@ -2,6 +2,10 @@
 ## Summary
 An experience that grants users the experience of the joys of flight, to explore beautiful and varied terrain on the hunt to collect images of native wildlife. 
 
+[Video Demonstration](https://www.youtube.com/watch?v=tTkxuBZIRzo&t=132s)
+
+![Flying through canyon environments](/Screenshots/FlyingCanyons.PNG)
+
 ## Platform `
 Target Platform: HTC Vive
 
